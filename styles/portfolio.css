@@ -15,13 +15,7 @@ body{
 }
 
 
-/* nav related styles*/
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 .title{
       color: #181818;
       font-size: 45px;
@@ -31,7 +25,15 @@ nav{
 .text-primary{
     color: #fd5e0a;
 }
+/* nav related styles*/
 
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: o 200px;
+
+}
 nav > ul{
     display: flex;
     align-items: center;
@@ -43,5 +45,14 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
-
+}
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px  150px;
+    display: flex;
+}
+.banner .profile{
+        width: 250px;
 }
